@@ -1,5 +1,6 @@
 # Simple script to get Telegram String Session.
 
+
 ## Installation:
 1) Python 3.8
 2) Telegram account stored in .session and json files
@@ -7,7 +8,7 @@
 4) Telegram Portable
 ______________________________________________________________________________
 
-# Простой скрипт, для получения String Session Telegram.
+# Простой скрипт, для получения Telegram String Session.
 
 ## Установка:
 1) Python 3.8
@@ -20,3 +21,6 @@ ______________________________________________________________________________
 python -m pip install --upgrade pip
 python -m pip install telethon
 pip install opentele
+```
+
+![converter](https://github.com/user-attachments/assets/242d1100-7598-4b75-8ea0-4291cd510897)
