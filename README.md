@@ -4,8 +4,8 @@
 ## Installation:
 1) Python 3.8
 2) Telegram account stored in .session and json files
-3) Create API ID and API Hash at my.telegram
-4) Telegram Portable
+3) Create API ID and API Hash at [my.telegram](https://my.telegram.org)
+4) [Telegram Portable](https://telegram.org/dl/desktop/win64_portable)
 ______________________________________________________________________________
 
 # Простой скрипт, для получения Telegram String Session и Session в tdata
