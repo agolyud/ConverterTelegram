@@ -6,10 +6,15 @@ from telethon import TelegramClient
 from opentele.tl import TelegramClient as TC
 from opentele.api import UseCurrentSession
 
-
 TDATAS_DIR = "./res_tdatas/"
 CONVERT_SESSION = "./sessions_to_tdata/"
 
+
+def ensure_dirs():
+    if not os.path.exists(TDATAS_DIR):
+        os.mkdir(TDATAS_DIR)
+    if not os.path.exists(CONVERT_SESSION):
+        os.mkdir(CONVERT_SESSION)
 
 def clear():
     try:
@@ -57,7 +62,7 @@ async def SessionToTData():
     session_file = session_files[0]
     await tdata.session_to_tdata(session_path=session_file)
 
-# Convert session to string session
+
 async def convert_session_to_string(session_file_path: str, api_id: int, api_hash: str):
     session = SQLiteSession(session_file_path)
 
@@ -67,6 +72,7 @@ async def convert_session_to_string(session_file_path: str, api_id: int, api_has
 
 
 async def main():
+    ensure_dirs()
     await SessionToTData()
 
     print("Successfully converted to tdata.")
