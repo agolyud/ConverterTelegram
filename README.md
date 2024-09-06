@@ -1,4 +1,4 @@
-# Simple script to get Telegram String Session.
+# Simple script to get Telegram String Session and session in tdata
 
 
 ## Installation:
@@ -8,7 +8,7 @@
 4) Telegram Portable
 ______________________________________________________________________________
 
-# Простой скрипт, для получения Telegram String Session.
+# Простой скрипт, для получения Telegram String Session и Session в tdata
 
 ## Установка:
 1) Python 3.8
